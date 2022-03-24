@@ -1,0 +1,125 @@
+.aside_information {
+    width: 60%;
+    padding: 0rem 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.aside_CardInformation {
+	width: 100%;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75rem;
+}
+
+.CardInformation_header {
+	width: 100%;
+    padding: 1.5rem 1rem 0rem;
+}
+
+.Information_h6 {
+	color: #344767;
+    font-size: 1rem;
+}
+
+.CardInformation_body {
+    width: 100%;
+    padding: 1.5rem 1rem 1rem;
+}
+
+.Information_listGrup {
+    display: flex;
+    flex-direction: column;
+	list-style: none;
+}
+
+.Information_listSpan, .Information_listSpan1 {
+	font-size: .75rem;
+	margin-bottom: 0.5rem;
+	color: #7B809A;
+}
+
+.Information_listSpan1 {
+	margin-bottom: 0rem;
+}
+
+.Information_Span {
+	margin-left: 0.5rem;
+    color: #344767;
+    font-weight: 600;
+}
+
+.Information_listGrup_item, .Information_listGrup_item1 {
+	margin-bottom: 0.5rem;
+    padding: 1.5rem;
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.Information_listGrup_item1 {
+	margin-top: 0rem;
+}
+
+.Information_list {
+	display: flex;
+    flex-direction: column;
+	width: 100%;
+}
+
+.Information_listh6 {
+	font-size: .875rem;
+    margin-bottom: 1rem;
+	color: #344767;
+}
+
+.listGrup_delete {
+	width: 100%;
+    margin-left: auto;
+	display: flex;
+    justify-content: flex-end;
+	flex-wrap: wrap;
+}
+
+.listGrup_Del_Edit, .listGrup_Del_Edit1 {
+	flex-direction: row;
+    color: #344767;
+    padding: 0.625rem 1.5rem;
+    font-size: .75rem;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    background-color: #f0f2f5;
+}
+
+.listGrup_Del_Edit {
+    color: #f44335;
+}
+
+.del_Edit {
+    height: 16px;
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 1135px) {
+	.aside_information, .aside_Transactions {
+		width: 100%!important;
+	}
+}
+
+@media (max-width: 450px) {
+	.listGrup_Del_Edit, .listGrup_Del_Edit1 {
+		padding: 0.625rem 0.3rem;
+	}
+
+	.Information_listGrup_item, .Information_listGrup_item1 {
+		padding: 1.5rem 0.5rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.Information_list {
+		width: 50%;
+	}
+}

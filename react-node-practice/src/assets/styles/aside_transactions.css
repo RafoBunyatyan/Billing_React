@@ -1,0 +1,204 @@
+.aside_Transactions {
+    width: 40%;
+    padding: 0rem 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.aside_CardTransactions {
+	width: 100%;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.75rem;
+	margin-bottom: 1.5rem;
+}
+
+.CardTransactions_header {
+    width: 100%;
+    padding: 1.5rem 1rem 0rem;
+}
+
+.header_Transactions {
+	width: 100%;
+	display: flex;
+}
+
+.header_Yourdata {
+	color: #344767;
+    font-size: 1rem;
+}
+
+.header_timeData {
+	width: 50%;
+    padding-left: 0.85rem;
+    display: flex;
+	color: #7B809A;
+}
+
+.icon_mdiCalendarRange {
+	margin-right: 0.5rem;
+    height: 24px;
+}
+
+.small_time {
+    width: 100%;
+    font-size: 0.85em;
+    display: flex;
+    align-items: center;
+}
+
+.CardTransactions_body {
+	width: 100%;
+    padding: 1.5rem 1rem 1rem;
+}
+
+.text_uppercase, .text_uppercase1 {
+    font-size: .75rem;
+    margin-bottom: 1rem;
+    color: #7b809a;
+    text-transform: uppercase;
+}
+
+.text_uppercase1 {
+	margin: 1rem 0rem;
+	height: 15px;
+}
+
+.Transactions_listGrup {
+	display: flex;
+    flex-direction: column;
+	margin-bottom: 25px;
+}
+
+.Transactions_listItem {
+	padding: 0.5rem 1rem 0.5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.Transactions_btnText {
+	display: flex;
+    align-items: center;
+}
+
+.Transactions_btn, .Transactions_btn1, .Transactions_btn2 {
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-right: 1rem;
+    border: 1px solid transparent;
+    border-radius: 1.875rem;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	color: #f5938c;
+    border-color: #e2847e;
+}
+
+.Transactions_btn1 {
+	color: #4caf50;
+    border-color: #4caf50;
+}
+
+.Transactions_btn2 {
+	color: #344767;
+    border-color: #344767;
+}
+
+.Transactions_btn:hover, .Transactions_btn1:hover, .Transactions_btn2:hover {
+	opacity: 0.7;
+}
+
+.Transactions_btn:focus {
+	box-shadow: 0px 0px 6px 0px #e492ae;
+    outline: #f3b4ca solid 3px;
+}
+
+.Transactions_btn1:focus {
+	box-shadow: 0px 0px 6px 0px #8adb8d;;
+    outline: #9ce09e solid 3px;
+}
+
+.Transactions_btn2:focus {
+	box-shadow: 0px 0px 6px 0px #a5b9da;
+    outline: #a4b6d3 solid 3px;
+}
+
+.text_LG {
+	height: 22px;
+}
+
+.Transactions_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.Transactions_h6 {
+	font-size: .875rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.Transactions_span {
+    font-size: .75rem;
+	color: #7B809A;
+}
+
+.Transactions_sum, .Transactions_sum1, .Transactions_sum2 {
+	color: #f47267;
+    display: flex;
+    align-items: center;
+    font-size: .875rem;
+}
+
+.Transactions_sum1 {
+	color:  #4ebb54;
+}
+
+.Transactions_sum2 {
+	color: #344767;
+}
+
+@media (max-width: 1170px) {
+	.header_data, .header_timeData {
+		padding: 0rem 0.23rem;
+	}
+}
+
+@media (max-width: 1135px) {
+	.header_data, .header_timeData {
+		padding: 0rem 0.85rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.header_Transactions {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.header_timeData {
+		width: 100%;
+	}
+}
+
+@media (max-width: 450px) {
+	.CardTransactions_body {
+    	padding: 1.5rem 0.5rem 1rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.Transactions_btn, .Transactions_btn1, .Transactions_btn2 {
+		margin-right: 0.3rem;
+	}
+
+	.Transactions_listItem {
+		padding: 0.5rem 0rem 0.5rem 0rem;
+	}
+
+	.Transactions_text {
+		width: 45%;
+	}
+}

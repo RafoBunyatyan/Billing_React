@@ -1,0 +1,135 @@
+.header_Invoices {
+    width: 50%;
+    padding: 0rem 0.75rem
+}
+
+.Invoices_div {
+    height: 100%;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+}
+
+.Invoices_header {
+	padding: 0.75rem 0.75rem 0rem;
+}
+
+.header_Div {
+    display: flex;
+    flex-direction: row;
+}
+
+.Invoices_textDiv, .Invoices_textDiv1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+	padding-right: 0.75rem;
+}
+
+.Invoices_textDiv1 {
+    padding: 0rem 0rem 0rem 0.75rem;
+    justify-content: flex-end;
+}
+
+.textDiv {
+	font-size: 1rem;
+}
+
+.buttonDiv {
+	border: 1px solid transparent;
+    font-weight: 700;
+    color: #e91e63;
+    border-color: #e91e63;
+    padding: 0.37rem 1rem;
+    text-transform: uppercase;
+    height: 34px;
+    font-size: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.buttonDiv:hover {
+	opacity: 0.7;
+}
+
+.buttonDiv:focus {
+	box-shadow: 0px 0px 6px 0px #e91e63;
+    outline: #f18db0 solid 3px;
+}
+
+.Invoices_body {
+	display: flex;
+    padding: 0.75rem 1rem 0rem;
+}
+
+.Invoices_listGrup {
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list_group_item, .list_group_item4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	padding: 0.5rem 1rem 0.5rem 0rem;
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+
+.list_group_item4 {
+    margin-bottom: 0rem;
+}
+
+.itemData {
+    display: flex;
+    flex-direction: column;
+}
+
+.Icon_PDF {
+    display: flex;
+    align-items: center;
+}
+
+.Icon_num {
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+	color: #7B809A;
+}
+
+.PDF_IconButton {
+    border: none;
+    color: #344767;
+    display: flex;
+    margin-left: 1.5rem;
+    padding: 0.75rem 0rem;
+    font-weight: 700;
+    align-items: center;
+}
+
+.PDF_IconSize {
+    height: 24px;
+    border: none;
+    margin-right: 0.25rem;
+}
+
+.itemData_h6 {
+	font-size: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.itemData_Span {
+    font-size: 0.75rem;
+	color: #7B809A;
+}
+
+@media (max-width: 1170px) {
+	.header_Invoices {
+		width: 100%;
+	}
+}
+
+@media (max-width: 450px) {
+	.Invoices_body {
+   	 	padding: 0.75rem 0.5rem 0rem;
+	}
+}

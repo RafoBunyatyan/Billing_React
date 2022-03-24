@@ -1,0 +1,135 @@
+.card_holder {
+	width: 50%;  	
+    display: flex;
+	color: white;
+	height: 100%;
+    max-height: 250px;
+}
+
+.card_transparent {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
+	background-image: linear-gradient(195deg,#42424a,#191919);
+    display: flex;
+    border-radius: 0.75rem;
+    position: relative;
+	margin: 0 auto;
+}
+
+.card_transparentImg {
+    width: 100%;
+    display: flex;
+    opacity: 0.2;
+    object-fit: cover;
+}
+
+.card_Body {
+    padding: 1.7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.card_i {
+    height: 36px;
+    max-width: 36px;
+    padding: 0.5rem;
+}
+
+.card_number {
+    font-size: 1.25rem;
+    margin-bottom: 1.6rem;
+    margin-top: 1.5rem;
+    padding-bottom: 0.3rem;
+    word-spacing: 10px;
+    font-weight: 600;
+}
+
+.card_footer {
+    display: flex;
+	align-items: center;
+}
+
+.card_username {
+	display: flex;
+}
+
+.holder {
+	margin-right: 1.5rem;
+}	
+
+.holder_card {
+	opacity: 0.8;
+    font-size: 0.875rem;
+}
+
+.holder_name {
+	font-size: 1rem;
+}
+
+.card_logo {
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+    width: 20%;
+}
+
+#card_logo {
+	margin-top: 0.5rem;
+    width: 60%;
+}
+
+@media (max-width: 1170px) {
+    .card_holder {
+		width: 100%;
+		margin-bottom: 1.5rem;
+		max-height: 250px;
+		height: 100%
+    }
+}
+
+@media (max-width: 550px) {
+	.card_number {
+		margin-bottom: 1.8rem;
+		margin-top: 0.5rem;
+	}	
+
+	.card_Body {
+		padding: 1.2rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.card_i {
+		height: 28px;
+		max-width: 28px;
+		padding: 0.3rem;
+	}
+
+	.card_Body {
+		padding: 0.7rem;
+	}
+}
+
+@media (max-width: 375px) {
+	.card_number {
+		font-size: 1rem;
+		margin-bottom: 1.2rem;
+	}
+
+	.card_i {
+		height: 26px;
+		max-width: 26px;
+		padding: 0.2rem;
+	}
+
+	.holder_card {
+		font-size: 0.8rem;
+	}
+
+	.holder_name {
+		font-size: 1rem;
+	}
+}
